@@ -1,0 +1,9 @@
+<h1>Love Dublin?</h1>
+<p class="lead">Browse tweets with hashtag #fixDublin to see what needs to be fixed.</p>
+<form>
+	<div class="form-group">
+		<input type="text" name="searchStr" class="form-control"
+		placeholder="Search fixDublin....." 
+		[(ngModel)]="searchStr" (keyup)="searchTwitter()">
+	</div>
+</form>
